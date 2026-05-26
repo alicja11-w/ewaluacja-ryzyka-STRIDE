@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 80,
-              "y": 160
+              "x": 30,
+              "y": 199.99999999999986
             },
             "size": {
               "width": 112.5,
@@ -257,7 +257,7 @@
           {
             "position": {
               "x": 295,
-              "y": 220
+              "y": 330
             },
             "size": {
               "width": 120,
@@ -372,12 +372,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
+            },
+            "children": []
           },
           {
             "position": {
-              "x": 514,
-              "y": 160
+              "x": 624,
+              "y": 139.99999999999986
             },
             "size": {
               "width": 120,
@@ -574,6 +575,10 @@
             },
             "vertices": [
               {
+                "x": 180,
+                "y": 150
+              },
+              {
                 "x": 193,
                 "y": 120
               },
@@ -705,6 +710,66 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "3c845207-93bc-438f-8350-0179bfefe825",
+            "source": {
+              "cell": "b34eeec1-38c1-40e5-b184-7bc191c7a895",
+              "port": "18427eb2-c36c-4d6a-9e90-3834a2ecd5bd"
+            },
+            "target": {
+              "cell": "5f8b6128-de82-4ffa-9443-a6c40db429dd",
+              "port": "64c4bffa-9899-4ecc-bd2b-592d60c61de7"
+            },
+            "vertices": [
+              {
+                "x": 110,
+                "y": 100
+              },
+              {
+                "x": 136,
+                "y": 60
+              },
+              {
+                "x": 170,
+                "y": 40
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "API do backend",
               "description": "",
               "outOfScope": false,
@@ -757,7 +822,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "widok strony",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -771,21 +836,25 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "widok strony"
             ],
-            "id": "3c845207-93bc-438f-8350-0179bfefe825",
+            "id": "4a306d51-fa25-4002-a543-7d90cb3c7c53",
             "source": {
-              "cell": "b34eeec1-38c1-40e5-b184-7bc191c7a895",
-              "port": "18427eb2-c36c-4d6a-9e90-3834a2ecd5bd"
+              "cell": "82f0b82a-6c70-4d3b-b7d4-a794fa13a51f",
+              "port": "7d46233e-2a33-489a-b665-e08c5ae873d8"
             },
             "target": {
-              "cell": "5f8b6128-de82-4ffa-9443-a6c40db429dd",
-              "port": "64c4bffa-9899-4ecc-bd2b-592d60c61de7"
+              "cell": "9c69fcf1-de77-427e-8564-1be3ddcd0b5b",
+              "port": "01056e34-0ebf-46a4-9888-d7329344382a"
             },
             "vertices": [
               {
-                "x": 136,
-                "y": 60
+                "x": 760,
+                "y": 460
+              },
+              {
+                "x": 860,
+                "y": 380
               }
             ]
           }
